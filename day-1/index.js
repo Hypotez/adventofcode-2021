@@ -14,7 +14,6 @@ function task1() {
 
 function task2() {
     let counter = 0;
-    console.log(text.slice(1, 4));
     for (let i = 3; i < text.length; i++) {
         if (addStrings(text.slice(i-2 ,i+1)) > addStrings(text.slice(i-3, i))) {
             counter ++;
